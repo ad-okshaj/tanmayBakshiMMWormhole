@@ -62,14 +62,14 @@
 		8BE0BF92CCB81908221D4500AEAFC6C6 /* WatchConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatchConnectivity.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/WatchConnectivity.framework; sourceTree = DEVELOPER_DIR; };
 		8DA098EBC29C73C41F3D766DB70F9F43 /* MMWormhole-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MMWormhole-Info.plist"; sourceTree = "<group>"; };
 		8F97AAADE5D85991CDF9B498E286DC57 /* MMWormhole-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MMWormhole-prefix.pch"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A73D452620E1CA1643AC72B82DBD591C /* MMWormholeFileTransiting.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MMWormholeFileTransiting.m; path = Source/MMWormholeFileTransiting.m; sourceTree = "<group>"; };
 		A970F19ABBC912CE140C148CDA0DEA00 /* Pods-WormholeExample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WormholeExample.modulemap"; sourceTree = "<group>"; };
 		BA68499ED08EB01C8A10F2B72B0AA13B /* Pods-WormholeExample */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-WormholeExample"; path = Pods_WormholeExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C34434C384FC00FFD5B9F94A475549CB /* MMWormhole.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MMWormhole.h; path = Source/MMWormhole.h; sourceTree = "<group>"; };
 		C36193FD7E940B2BD53A911B1DB13139 /* Pods-WormholeExample-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WormholeExample-Info.plist"; sourceTree = "<group>"; };
 		C4D0BB7239F738F8BC7884FB021CEAF2 /* MMWormholeSessionFileTransiting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MMWormholeSessionFileTransiting.h; path = Source/MMWormholeSessionFileTransiting.h; sourceTree = "<group>"; };
-		D9C203AF2F5D868FFFED227C2527287F /* MMWormhole */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MMWormhole; path = MMWormhole.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9C203AF2F5D868FFFED227C2527287F /* MMWormhole.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MMWormhole.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCF1490510D383135463B838827E0E93 /* MMWormholeSessionContextTransiting.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MMWormholeSessionContextTransiting.m; path = Source/MMWormholeSessionContextTransiting.m; sourceTree = "<group>"; };
 		E1D2FC72660B51C4BBAF6CFAB38AA89D /* Pods-WormholeExample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WormholeExample-acknowledgements.plist"; sourceTree = "<group>"; };
 		E4A08AE28B5DE287DF63495757866BE4 /* MMWormholeSession.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MMWormholeSession.m; path = Source/MMWormholeSession.m; sourceTree = "<group>"; };
@@ -140,7 +140,6 @@
 				B40F9C4A8239E7DB0A3B1708981B273F /* Core */,
 				B2BADA86CBB81B95743D75964BC94CEB /* Support Files */,
 			);
-			name = MMWormhole;
 			path = MMWormhole;
 			sourceTree = "<group>";
 		};
@@ -164,7 +163,7 @@
 		B22D2D8C548422B2AF8B89702481CD93 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D9C203AF2F5D868FFFED227C2527287F /* MMWormhole */,
+				D9C203AF2F5D868FFFED227C2527287F /* MMWormhole.framework */,
 				BA68499ED08EB01C8A10F2B72B0AA13B /* Pods-WormholeExample */,
 			);
 			name = Products;
@@ -282,7 +281,7 @@
 			);
 			name = MMWormhole;
 			productName = MMWormhole;
-			productReference = D9C203AF2F5D868FFFED227C2527287F /* MMWormhole */;
+			productReference = D9C203AF2F5D868FFFED227C2527287F /* MMWormhole.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -381,7 +380,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/MMWormhole/MMWormhole-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/MMWormhole/MMWormhole-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -520,7 +519,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/MMWormhole/MMWormhole-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/MMWormhole/MMWormhole-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
