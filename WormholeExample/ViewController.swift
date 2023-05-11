@@ -43,19 +43,19 @@ class ViewController: UIViewController
     
     @IBAction func button1clicked(_ sender: Any)
     {
-        
+        wormhole.passMessageObject("1".toNS, identifier: "numberclicked")
     }
     
     
     @IBAction func button2clicked(_ sender: Any)
     {
-        
+        wormhole.passMessageObject("2".toNS, identifier: "numberclicked")
     }
     
     
     @IBAction func button3clicked(_ sender: Any)
     {
-        
+        wormhole.passMessageObject("3".toNS, identifier: "numberclicked")
     }
     
 }
