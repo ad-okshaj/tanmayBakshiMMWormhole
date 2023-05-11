@@ -8,6 +8,17 @@
 import UIKit
 import MMWormhole
 
+extension String
+{
+    var toNS: NSString
+    {
+        get
+        {
+            return (self as NSString)
+        }
+    }
+}
+
 class ViewController: UIViewController
 {
     let wormhole = MMWormhole(applicationGroupIdentifier: "group.com.sclera.WormholeExample", optionalDirectory: "wormholeexample")
@@ -30,16 +41,21 @@ class ViewController: UIViewController
         outputLabel.text = "New Wormhole Message: \(result)"
     }
     
-    @IBAction func button1clicked(_ sender: Any) {
+    @IBAction func button1clicked(_ sender: Any)
+    {
+        
     }
     
     
-    @IBAction func button2clicked(_ sender: Any) {
+    @IBAction func button2clicked(_ sender: Any)
+    {
+        
     }
     
     
-    @IBAction func button3clicked(_ sender: Any) {
+    @IBAction func button3clicked(_ sender: Any)
+    {
+        
     }
     
 }
-
