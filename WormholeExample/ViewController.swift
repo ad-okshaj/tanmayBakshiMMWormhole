@@ -21,7 +21,7 @@ extension String
 
 class ViewController: UIViewController
 {
-    let wormhole = MMWormhole(applicationGroupIdentifier: "group.com.sclera.WormholeExample", optionalDirectory: "wormholeexample")
+    let wormhole = MMWormhole(applicationGroupIdentifier: "group.com.sclera.WormholeExample", optionalDirectory: "wormhole")
     @IBOutlet weak var outputLabel: UILabel!
     
     override func viewDidLoad() {
