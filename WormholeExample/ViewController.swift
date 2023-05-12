@@ -21,7 +21,8 @@ extension String
 
 class ViewController: UIViewController
 {
-    let wormhole = MMWormhole(applicationGroupIdentifier: "group.com.sclera.WormholeExample", optionalDirectory: "wormhole")
+    let wormhole = MMWormhole(applicationGroupIdentifier: "group.com.sclera.WormholeExample", optionalDirectory: nil)
+    
     @IBOutlet weak var outputLabel: UILabel!
     
     override func viewDidLoad() {
@@ -31,14 +32,10 @@ class ViewController: UIViewController
             (result) in
             if let finalResult = result
             {
-                self.display(result: (finalResult as! String))
+                self.outputLabel.text = "New Wormhole Message: \(finalResult)"
+                
             }
         }
-    }
-    
-    func display(result: String)
-    {
-        outputLabel.text = "New Wormhole Message: \(result)"
     }
     
     @IBAction func button1clicked(_ sender: Any)

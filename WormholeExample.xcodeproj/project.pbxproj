@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		180E8C9D2A0DF8A4000F11AC /* WatchAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180E8C9C2A0DF8A4000F11AC /* WatchAppApp.swift */; };
-		180E8C9F2A0DF8A4000F11AC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180E8C9E2A0DF8A4000F11AC /* ContentView.swift */; };
 		180E8CA12A0DF8A5000F11AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 180E8CA02A0DF8A5000F11AC /* Assets.xcassets */; };
 		180E8CA42A0DF8A5000F11AC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 180E8CA32A0DF8A5000F11AC /* Preview Assets.xcassets */; };
 		180E8CA72A0DF8A5000F11AC /* WatchApp Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 180E8C9A2A0DF8A4000F11AC /* WatchApp Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
@@ -18,6 +17,7 @@
 		1841C2062A0CF91700C24B7C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1841C2042A0CF91700C24B7C /* Main.storyboard */; };
 		1841C2082A0CF91800C24B7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1841C2072A0CF91800C24B7C /* Assets.xcassets */; };
 		1841C20B2A0CF91800C24B7C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1841C2092A0CF91800C24B7C /* LaunchScreen.storyboard */; };
+		184C2C912A0E1A5700B1DE35 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180E8C9E2A0DF8A4000F11AC /* ContentView.swift */; };
 		29DBD37B2EB88DD914B7288C /* Pods_WormholeExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C08AAAC1C1BF0F4D51768FDA /* Pods_WormholeExample.framework */; };
 		2A0A7DC8A708DD5DC57462B3 /* Pods_WormholeExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18C8CC2A2A0E01CB00BBB3D8 /* Pods_WormholeExample.framework */; };
 		E5DC0696A5EC44D231EDD7E8 /* Pods_WatchApp_Watch_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54BEBD5E80E21435F3099D97 /* Pods_WatchApp_Watch_App.framework */; };
@@ -359,7 +359,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				180E8C9F2A0DF8A4000F11AC /* ContentView.swift in Sources */,
+				184C2C912A0E1A5700B1DE35 /* ContentView.swift in Sources */,
 				180E8C9D2A0DF8A4000F11AC /* WatchAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
