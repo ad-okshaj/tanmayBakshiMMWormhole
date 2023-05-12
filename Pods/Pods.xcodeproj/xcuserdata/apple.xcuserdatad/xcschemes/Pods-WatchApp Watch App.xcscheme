@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "79B814DB9A64CDC0E82BF99F32518CE2"
-               BuildableName = "Pods_WormholeExample.framework"
-               BlueprintName = "Pods-WormholeExample"
+               BlueprintIdentifier = "67120F425DB9C19ACEFD7D3F85DB1E81"
+               BuildableName = "Pods_WatchApp_Watch_App.framework"
+               BlueprintName = "Pods-WatchApp Watch App"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>

@@ -19,6 +19,8 @@
 		1841C2082A0CF91800C24B7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1841C2072A0CF91800C24B7C /* Assets.xcassets */; };
 		1841C20B2A0CF91800C24B7C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1841C2092A0CF91800C24B7C /* LaunchScreen.storyboard */; };
 		29DBD37B2EB88DD914B7288C /* Pods_WormholeExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C08AAAC1C1BF0F4D51768FDA /* Pods_WormholeExample.framework */; };
+		2A0A7DC8A708DD5DC57462B3 /* Pods_WormholeExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18C8CC2A2A0E01CB00BBB3D8 /* Pods_WormholeExample.framework */; };
+		E5DC0696A5EC44D231EDD7E8 /* Pods_WatchApp_Watch_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54BEBD5E80E21435F3099D97 /* Pods_WatchApp_Watch_App.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,7 +64,12 @@
 		1841C20A2A0CF91800C24B7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1841C20C2A0CF91800C24B7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1841C2122A0CF99000C24B7C /* WormholeExample.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WormholeExample.entitlements; sourceTree = "<group>"; };
+		18C8CC262A0E01BD00BBB3D8 /* MMWormhole.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = MMWormhole.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		18C8CC2A2A0E01CB00BBB3D8 /* Pods_WormholeExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_WormholeExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E5F9C835282C9F422648280 /* Pods-WormholeExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WormholeExample.debug.xcconfig"; path = "Target Support Files/Pods-WormholeExample/Pods-WormholeExample.debug.xcconfig"; sourceTree = "<group>"; };
+		30171B7B230F50D8B903C60A /* Pods-WatchApp Watch App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WatchApp Watch App.release.xcconfig"; path = "Target Support Files/Pods-WatchApp Watch App/Pods-WatchApp Watch App.release.xcconfig"; sourceTree = "<group>"; };
+		54BEBD5E80E21435F3099D97 /* Pods_WatchApp_Watch_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WatchApp_Watch_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		86F159186569C327C8C3913F /* Pods-WatchApp Watch App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WatchApp Watch App.debug.xcconfig"; path = "Target Support Files/Pods-WatchApp Watch App/Pods-WatchApp Watch App.debug.xcconfig"; sourceTree = "<group>"; };
 		C08AAAC1C1BF0F4D51768FDA /* Pods_WormholeExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WormholeExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -71,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5DC0696A5EC44D231EDD7E8 /* Pods_WatchApp_Watch_App.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +87,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				29DBD37B2EB88DD914B7288C /* Pods_WormholeExample.framework in Frameworks */,
+				2A0A7DC8A708DD5DC57462B3 /* Pods_WormholeExample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -145,6 +154,8 @@
 			children = (
 				2E5F9C835282C9F422648280 /* Pods-WormholeExample.debug.xcconfig */,
 				011D40FCE9FBF8F934332AAC /* Pods-WormholeExample.release.xcconfig */,
+				86F159186569C327C8C3913F /* Pods-WatchApp Watch App.debug.xcconfig */,
+				30171B7B230F50D8B903C60A /* Pods-WatchApp Watch App.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -152,7 +163,10 @@
 		F23FE9B2F8C43AF07FA349FD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				18C8CC2A2A0E01CB00BBB3D8 /* Pods_WormholeExample.framework */,
+				18C8CC262A0E01BD00BBB3D8 /* MMWormhole.framework */,
 				C08AAAC1C1BF0F4D51768FDA /* Pods_WormholeExample.framework */,
+				54BEBD5E80E21435F3099D97 /* Pods_WatchApp_Watch_App.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -164,9 +178,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 180E8CAB2A0DF8A6000F11AC /* Build configuration list for PBXNativeTarget "WatchApp Watch App" */;
 			buildPhases = (
+				3814B74E41A894336317BD72 /* [CP] Check Pods Manifest.lock */,
 				180E8C962A0DF8A4000F11AC /* Sources */,
 				180E8C972A0DF8A4000F11AC /* Frameworks */,
 				180E8C982A0DF8A4000F11AC /* Resources */,
+				7BC34CE224A95A5B8A5FA132 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -185,8 +201,8 @@
 				1841C1F72A0CF91700C24B7C /* Sources */,
 				1841C1F82A0CF91700C24B7C /* Frameworks */,
 				1841C1F92A0CF91700C24B7C /* Resources */,
-				959CF597C2D049041D1785D4 /* [CP] Embed Pods Frameworks */,
 				180E8CA82A0DF8A6000F11AC /* Embed Watch Content */,
+				3EC36054335CFFCB259756B7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -258,7 +274,29 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		959CF597C2D049041D1785D4 /* [CP] Embed Pods Frameworks */ = {
+		3814B74E41A894336317BD72 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WatchApp Watch App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3EC36054335CFFCB259756B7 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -273,6 +311,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WormholeExample/Pods-WormholeExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7BC34CE224A95A5B8A5FA132 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WatchApp Watch App/Pods-WatchApp Watch App-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WatchApp Watch App/Pods-WatchApp Watch App-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WatchApp Watch App/Pods-WatchApp Watch App-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		987A6A31ECC7D842DF8E8CAD /* [CP] Check Pods Manifest.lock */ = {
@@ -351,6 +406,7 @@
 /* Begin XCBuildConfiguration section */
 		180E8CA92A0DF8A6000F11AC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86F159186569C327C8C3913F /* Pods-WatchApp Watch App.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -382,6 +438,7 @@
 		};
 		180E8CAA2A0DF8A6000F11AC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30171B7B230F50D8B903C60A /* Pods-WatchApp Watch App.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

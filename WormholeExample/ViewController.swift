@@ -12,7 +12,7 @@ extension String
 {
     var toNS: NSString
     {
-        get
+        get 
         {
             return (self as NSString)
         }

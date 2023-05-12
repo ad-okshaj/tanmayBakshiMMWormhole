@@ -1,2 +1,2 @@
 ${PODS_ROOT}/Target Support Files/Pods-WormholeExample/Pods-WormholeExample-frameworks.sh
-${BUILT_PRODUCTS_DIR}/MMWormhole/MMWormhole.framework
+${BUILT_PRODUCTS_DIR}/MMWormhole-iOS/MMWormhole.framework

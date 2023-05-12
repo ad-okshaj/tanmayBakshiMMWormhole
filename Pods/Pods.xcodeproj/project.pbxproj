@@ -7,201 +7,296 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		02DAE095E43D598F39C00701E62CA242 /* MMWormholeFileTransiting.m in Sources */ = {isa = PBXBuildFile; fileRef = A73D452620E1CA1643AC72B82DBD591C /* MMWormholeFileTransiting.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		07812F0D52ABA35ADB92ACA0BADAF3A0 /* Pods-WormholeExample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E4CA14CCB2819EA64D6E5FEDAA47A226 /* Pods-WormholeExample-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0876EF674D2AC9EB649D15765CACF38A /* MMWormholeSessionContextTransiting.m in Sources */ = {isa = PBXBuildFile; fileRef = DCF1490510D383135463B838827E0E93 /* MMWormholeSessionContextTransiting.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		10DC2E761FD8240755CB4D44AD848B3C /* MMWormholeSessionFileTransiting.h in Headers */ = {isa = PBXBuildFile; fileRef = C4D0BB7239F738F8BC7884FB021CEAF2 /* MMWormholeSessionFileTransiting.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		145EAECCCD3637C051D305ED3B87967C /* MMWormholeSessionMessageTransiting.m in Sources */ = {isa = PBXBuildFile; fileRef = F17BBE22A6B40764F345EE870B9FF9CC /* MMWormholeSessionMessageTransiting.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		1E82F834D1867575327C749E304E5717 /* MMWormholeTransiting.h in Headers */ = {isa = PBXBuildFile; fileRef = 617C47B554272443FC1EB637BB5C8BA6 /* MMWormholeTransiting.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		321740FBD1C89969CA16BD264D6D1FDD /* MMWormholeSessionFileTransiting.m in Sources */ = {isa = PBXBuildFile; fileRef = 29DC1E04E81968DF588921BEF99BCEBD /* MMWormholeSessionFileTransiting.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		3A8289DD1509BF5086A0381D7BE5DCD0 /* MMWormholeFileTransiting.h in Headers */ = {isa = PBXBuildFile; fileRef = 81E37EA4C61D6EA5F1E5FCCD75D9FC44 /* MMWormholeFileTransiting.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		61A1136637848E05B3CF71EAD63F0487 /* MMWormholeSessionMessageTransiting.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D71A3DB8C13F70B9D7F40EDE4237C08 /* MMWormholeSessionMessageTransiting.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		802847C45D827FDC0AC71A91C6B4F76C /* MMWormholeCoordinatedFileTransiting.h in Headers */ = {isa = PBXBuildFile; fileRef = 063723B5929F5403A18778AA287132D0 /* MMWormholeCoordinatedFileTransiting.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		80C0803B7CCF495A4D2D32BAE6911EB0 /* MMWormhole.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0AED545BD7CF0291F335F6233BE120 /* MMWormhole.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		8FA59698D8E0940C6A785C92D2325664 /* MMWormhole-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1803BDEDAE9346A50669CD758E0DC015 /* MMWormhole-dummy.m */; };
-		98115BC6B817E99BB0723648ED089353 /* WatchConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BE0BF92CCB81908221D4500AEAFC6C6 /* WatchConnectivity.framework */; };
-		9B910EA79654BF027B1AA8505ABBF343 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04A76E030232411649BC9EB058BA4F1B /* Foundation.framework */; };
-		9BE8A6DFA083145B43FAC37573CC6D3A /* Pods-WormholeExample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C89FA0377B7942B32DA2A632D48B8AB /* Pods-WormholeExample-dummy.m */; };
-		A275AF26282712C0EE744A90F9CA52C7 /* MMWormholeSessionContextTransiting.h in Headers */ = {isa = PBXBuildFile; fileRef = 33A9655595638CDF299C104BCFB6B330 /* MMWormholeSessionContextTransiting.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B12342B7665D8F0E5C8E4142FBC7CE69 /* MMWormhole.h in Headers */ = {isa = PBXBuildFile; fileRef = C34434C384FC00FFD5B9F94A475549CB /* MMWormhole.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BCF966A242F1A37245EB58A12267EEC8 /* MMWormholeSession.m in Sources */ = {isa = PBXBuildFile; fileRef = E4A08AE28B5DE287DF63495757866BE4 /* MMWormholeSession.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		CD3B4CEE42DB4A796155E9B1E22FECCB /* MMWormholeCoordinatedFileTransiting.m in Sources */ = {isa = PBXBuildFile; fileRef = 664F2D961776800CA3F47E6CBB9A5BF5 /* MMWormholeCoordinatedFileTransiting.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		D05E2424317DDE6F2C47C7A171394CDB /* MMWormhole-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 786BD031A8E96377EA741F7AF9863BBB /* MMWormhole-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DEE40D70752AFFE77E738C1459DB990C /* MMWormholeSession.h in Headers */ = {isa = PBXBuildFile; fileRef = 01D376F90F01E9780066AC7B2B3F1A3F /* MMWormholeSession.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EEC769F2E68ED023B1B1E151E68F9386 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04A76E030232411649BC9EB058BA4F1B /* Foundation.framework */; };
+		020B066803C88DDD1D9891A50370A707 /* MMWormholeSessionFileTransiting.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A23EC1065192559263D0D7ACDE0F270 /* MMWormholeSessionFileTransiting.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		02D76A39AA0A609F3EE7411F902C7DCB /* MMWormhole-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB2E73C9064F13BAA4E9433C1E3FA63 /* MMWormhole-iOS-dummy.m */; };
+		06B5E9E97D801B2E8647875CF67784D4 /* Pods-WatchApp Watch App-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2ACC616FD0614A342C114486C44C7A9D /* Pods-WatchApp Watch App-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		08E2865806E87187B84D7536CCD5A1FD /* WatchConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4B1975972DA464AB4BD35B6C125CC2D /* WatchConnectivity.framework */; };
+		0975E6C7A143CCD7B20C189872B0274D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B62B9ACB69DDF461ACAAAB9CF1708C5 /* Foundation.framework */; };
+		0B715386DBD2B5E393D3D156200EBF6E /* MMWormholeFileTransiting.h in Headers */ = {isa = PBXBuildFile; fileRef = 91435D576F6090C71713E2ECE410D477 /* MMWormholeFileTransiting.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		18FE2842CF65F37FB425839B54845EDD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B62B9ACB69DDF461ACAAAB9CF1708C5 /* Foundation.framework */; };
+		19A690D20F8589FA56714378EC93BD7E /* MMWormholeFileTransiting.m in Sources */ = {isa = PBXBuildFile; fileRef = D2FD97B5F3A62629D3106A7AB7BBA030 /* MMWormholeFileTransiting.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		28277DA257ADC84387577109F31FB4AC /* WatchConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 082FFB103C8998778F9C95CBDF963D32 /* WatchConnectivity.framework */; };
+		2AC6ED518E95373090481B4D816F1E20 /* MMWormholeSessionMessageTransiting.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E96291410D21D006F2C0C5D582193F /* MMWormholeSessionMessageTransiting.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		338E980EE6A7D26A1277706B9F77C489 /* MMWormholeSessionContextTransiting.h in Headers */ = {isa = PBXBuildFile; fileRef = B0611D32CD8B223044F4A99D60FEE672 /* MMWormholeSessionContextTransiting.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3863B874F73628C58C63DF36A5DE1945 /* Pods-WatchApp Watch App-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BDC8AC7B43E7745D7B41FF1866B6169 /* Pods-WatchApp Watch App-dummy.m */; };
+		3A417C01F4CF9262DB211C3AD4DA40AB /* MMWormholeCoordinatedFileTransiting.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A9CBA1F0504FDF09568481944D5888B /* MMWormholeCoordinatedFileTransiting.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		48EB28DAEDE76229146620D1D1D4CAE2 /* MMWormholeSessionContextTransiting.m in Sources */ = {isa = PBXBuildFile; fileRef = 56D55DE12DE9BCAF08A088B87F24973B /* MMWormholeSessionContextTransiting.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		52244B139F89C97AF16747AFB7E51FAB /* MMWormholeSessionMessageTransiting.h in Headers */ = {isa = PBXBuildFile; fileRef = 15CD409375C327DB7A5A40B11B588B8E /* MMWormholeSessionMessageTransiting.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		56EBC071CC11B44878BFDC94AE061EF5 /* MMWormhole.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EF1A62F3F5AFC32D05B1604A257B45F /* MMWormhole.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5DF827C3C97B58191F6D21B70FCF6B43 /* Pods-WormholeExample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B2CDA58BA52DAD437B662DD57C8FA774 /* Pods-WormholeExample-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		624DE44B45F5CC300D747010BDD33170 /* MMWormholeSessionContextTransiting.m in Sources */ = {isa = PBXBuildFile; fileRef = 56D55DE12DE9BCAF08A088B87F24973B /* MMWormholeSessionContextTransiting.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		710ED0E415C506360C68695DE1792B83 /* MMWormholeTransiting.h in Headers */ = {isa = PBXBuildFile; fileRef = DEFB47B82361CD91EADB8B9A82A99FB3 /* MMWormholeTransiting.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		726F992ADAD0198CC6049A5B167DCEAA /* MMWormholeSession.m in Sources */ = {isa = PBXBuildFile; fileRef = B9309864E881195ED4163B2F359B0C8F /* MMWormholeSession.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		799815F012D70DAD3AD6BA43E8A18203 /* MMWormholeCoordinatedFileTransiting.h in Headers */ = {isa = PBXBuildFile; fileRef = A7F5687A940CB3671D4AB28D22108321 /* MMWormholeCoordinatedFileTransiting.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A90849147ACB73337DE8B3E6AEEA742 /* MMWormholeCoordinatedFileTransiting.h in Headers */ = {isa = PBXBuildFile; fileRef = A7F5687A940CB3671D4AB28D22108321 /* MMWormholeCoordinatedFileTransiting.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7F4F14499D28AC3D4AE757E959D19438 /* MMWormholeSession.h in Headers */ = {isa = PBXBuildFile; fileRef = 77D8FE151C20D445FB58B1282CECBA81 /* MMWormholeSession.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A440992CC01907496A5F3AAA0549E55 /* MMWormhole.m in Sources */ = {isa = PBXBuildFile; fileRef = CF021EA5B04D05E023C08C800D39F8EC /* MMWormhole.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		9D9B75DC6050E165A5CFCC7D550BEB99 /* MMWormholeSession.h in Headers */ = {isa = PBXBuildFile; fileRef = 77D8FE151C20D445FB58B1282CECBA81 /* MMWormholeSession.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A3B2CAF19AB7347A61CE34B6EBD97368 /* MMWormholeSessionMessageTransiting.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E96291410D21D006F2C0C5D582193F /* MMWormholeSessionMessageTransiting.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		A6F6B4EC2741C73D682521D4560A7697 /* MMWormholeSessionFileTransiting.m in Sources */ = {isa = PBXBuildFile; fileRef = BD1BD8DDC9C86A8839D0A4A88E69E276 /* MMWormholeSessionFileTransiting.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		B390553E479BE35CBDF97F2F4DB12D57 /* MMWormholeFileTransiting.h in Headers */ = {isa = PBXBuildFile; fileRef = 91435D576F6090C71713E2ECE410D477 /* MMWormholeFileTransiting.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5F47A1EA42C79DEC300F98114F82248 /* Pods-WormholeExample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 16E41D43B6220E16514CFAD17B0066E0 /* Pods-WormholeExample-dummy.m */; };
+		B751B7ECD3C47936F93CBAC396084DF8 /* MMWormholeFileTransiting.m in Sources */ = {isa = PBXBuildFile; fileRef = D2FD97B5F3A62629D3106A7AB7BBA030 /* MMWormholeFileTransiting.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		BF5D0EC43D78161FDAC53B059638E99E /* MMWormhole-watchOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 16F2151DE7064FE82BFE98DD7DDCADB1 /* MMWormhole-watchOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BFBCF91ABFE2BC97371B307552A90453 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61AF5EB4F939A07754587CE4B4422CCC /* Foundation.framework */; };
+		C72F044D37982848ECD3BB83F053CF24 /* MMWormholeTransiting.h in Headers */ = {isa = PBXBuildFile; fileRef = DEFB47B82361CD91EADB8B9A82A99FB3 /* MMWormholeTransiting.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C875C5AA79145B7CCC15A28F21076367 /* MMWormholeSession.m in Sources */ = {isa = PBXBuildFile; fileRef = B9309864E881195ED4163B2F359B0C8F /* MMWormholeSession.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		C8C03211C1630936544FDFD40D0A5F42 /* MMWormhole-iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 443ECFFBE80813DBDF0EEAF7A8208152 /* MMWormhole-iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CF21BFAB34654D4E2C1F44A6E154DF4F /* MMWormhole-watchOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 28A175FE6FC081A44F066C6ABEABF962 /* MMWormhole-watchOS-dummy.m */; };
+		D3E738C4C02BD1642A1FCE0CCB0B141F /* MMWormhole.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EF1A62F3F5AFC32D05B1604A257B45F /* MMWormhole.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D514F5E3EBD42F97C244960A654C59A3 /* MMWormholeSessionFileTransiting.m in Sources */ = {isa = PBXBuildFile; fileRef = BD1BD8DDC9C86A8839D0A4A88E69E276 /* MMWormholeSessionFileTransiting.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		D6557F2B9282C46D7AEA12E6E87AD638 /* MMWormholeCoordinatedFileTransiting.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A9CBA1F0504FDF09568481944D5888B /* MMWormholeCoordinatedFileTransiting.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		DF7B0F10D1CD63F9CD7836099EFBAB52 /* MMWormholeSessionMessageTransiting.h in Headers */ = {isa = PBXBuildFile; fileRef = 15CD409375C327DB7A5A40B11B588B8E /* MMWormholeSessionMessageTransiting.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E8D7FD301E78937C2EF6E250F420F1BA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61AF5EB4F939A07754587CE4B4422CCC /* Foundation.framework */; };
+		EB1B3F6283268BD0A2D2E6B36EFAABFD /* MMWormholeSessionFileTransiting.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A23EC1065192559263D0D7ACDE0F270 /* MMWormholeSessionFileTransiting.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F188EBF8B1BAA2D45E00DADF70308FE9 /* MMWormholeSessionContextTransiting.h in Headers */ = {isa = PBXBuildFile; fileRef = B0611D32CD8B223044F4A99D60FEE672 /* MMWormholeSessionContextTransiting.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FCE8E09205D69436FB762984D5C905E4 /* MMWormhole.m in Sources */ = {isa = PBXBuildFile; fileRef = CF021EA5B04D05E023C08C800D39F8EC /* MMWormhole.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		D12551D79FEDC9248981A4EC33B8D56A /* PBXContainerItemProxy */ = {
+		5284C70F76552CF0944A39584DB47A14 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = E37C8494356B2F3F48E654AC46CD6824;
-			remoteInfo = MMWormhole;
+			remoteGlobalIDString = 9441ED84A6E238554D1B0FBCC7640E23;
+			remoteInfo = "MMWormhole-watchOS";
+		};
+		A642FA5D0704920218DD8A022E716481 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65CB53E14B49F4E2F02F0DB9F0567726;
+			remoteInfo = "MMWormhole-iOS";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		01D376F90F01E9780066AC7B2B3F1A3F /* MMWormholeSession.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MMWormholeSession.h; path = Source/MMWormholeSession.h; sourceTree = "<group>"; };
-		04A76E030232411649BC9EB058BA4F1B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		055478331CF2D7DC48139E52B6178A07 /* Pods-WormholeExample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WormholeExample-acknowledgements.markdown"; sourceTree = "<group>"; };
-		063723B5929F5403A18778AA287132D0 /* MMWormholeCoordinatedFileTransiting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MMWormholeCoordinatedFileTransiting.h; path = Source/MMWormholeCoordinatedFileTransiting.h; sourceTree = "<group>"; };
-		1803BDEDAE9346A50669CD758E0DC015 /* MMWormhole-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MMWormhole-dummy.m"; sourceTree = "<group>"; };
-		29DC1E04E81968DF588921BEF99BCEBD /* MMWormholeSessionFileTransiting.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MMWormholeSessionFileTransiting.m; path = Source/MMWormholeSessionFileTransiting.m; sourceTree = "<group>"; };
-		33A9655595638CDF299C104BCFB6B330 /* MMWormholeSessionContextTransiting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MMWormholeSessionContextTransiting.h; path = Source/MMWormholeSessionContextTransiting.h; sourceTree = "<group>"; };
-		375938D3071A3F772EBA93509C675E51 /* MMWormhole.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MMWormhole.modulemap; sourceTree = "<group>"; };
-		3D71A3DB8C13F70B9D7F40EDE4237C08 /* MMWormholeSessionMessageTransiting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MMWormholeSessionMessageTransiting.h; path = Source/MMWormholeSessionMessageTransiting.h; sourceTree = "<group>"; };
-		5760E9E9FFB37E1CBAD53D9B8FD533A9 /* Pods-WormholeExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WormholeExample.release.xcconfig"; sourceTree = "<group>"; };
-		617C47B554272443FC1EB637BB5C8BA6 /* MMWormholeTransiting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MMWormholeTransiting.h; path = Source/MMWormholeTransiting.h; sourceTree = "<group>"; };
-		664F2D961776800CA3F47E6CBB9A5BF5 /* MMWormholeCoordinatedFileTransiting.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MMWormholeCoordinatedFileTransiting.m; path = Source/MMWormholeCoordinatedFileTransiting.m; sourceTree = "<group>"; };
-		6C89FA0377B7942B32DA2A632D48B8AB /* Pods-WormholeExample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WormholeExample-dummy.m"; sourceTree = "<group>"; };
-		75931C1563110F9D61C9FBFF7F10B792 /* Pods-WormholeExample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WormholeExample-frameworks.sh"; sourceTree = "<group>"; };
-		786BD031A8E96377EA741F7AF9863BBB /* MMWormhole-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MMWormhole-umbrella.h"; sourceTree = "<group>"; };
-		79C6F9343249B3272EEACCE9A8F16CB3 /* MMWormhole.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MMWormhole.debug.xcconfig; sourceTree = "<group>"; };
-		81E37EA4C61D6EA5F1E5FCCD75D9FC44 /* MMWormholeFileTransiting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MMWormholeFileTransiting.h; path = Source/MMWormholeFileTransiting.h; sourceTree = "<group>"; };
-		8BE0BF92CCB81908221D4500AEAFC6C6 /* WatchConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatchConnectivity.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/WatchConnectivity.framework; sourceTree = DEVELOPER_DIR; };
-		8DA098EBC29C73C41F3D766DB70F9F43 /* MMWormhole-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MMWormhole-Info.plist"; sourceTree = "<group>"; };
-		8F97AAADE5D85991CDF9B498E286DC57 /* MMWormhole-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MMWormhole-prefix.pch"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A73D452620E1CA1643AC72B82DBD591C /* MMWormholeFileTransiting.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MMWormholeFileTransiting.m; path = Source/MMWormholeFileTransiting.m; sourceTree = "<group>"; };
-		A970F19ABBC912CE140C148CDA0DEA00 /* Pods-WormholeExample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WormholeExample.modulemap"; sourceTree = "<group>"; };
+		03E96291410D21D006F2C0C5D582193F /* MMWormholeSessionMessageTransiting.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MMWormholeSessionMessageTransiting.m; path = Source/MMWormholeSessionMessageTransiting.m; sourceTree = "<group>"; };
+		082FFB103C8998778F9C95CBDF963D32 /* WatchConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatchConnectivity.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/WatchConnectivity.framework; sourceTree = DEVELOPER_DIR; };
+		15CD409375C327DB7A5A40B11B588B8E /* MMWormholeSessionMessageTransiting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MMWormholeSessionMessageTransiting.h; path = Source/MMWormholeSessionMessageTransiting.h; sourceTree = "<group>"; };
+		16E41D43B6220E16514CFAD17B0066E0 /* Pods-WormholeExample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WormholeExample-dummy.m"; sourceTree = "<group>"; };
+		16F2151DE7064FE82BFE98DD7DDCADB1 /* MMWormhole-watchOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MMWormhole-watchOS-umbrella.h"; path = "../MMWormhole-watchOS/MMWormhole-watchOS-umbrella.h"; sourceTree = "<group>"; };
+		17CBE1DEE57C4C8BC0F3EB928EE4FE70 /* Pods-WatchApp Watch App-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WatchApp Watch App-acknowledgements.plist"; sourceTree = "<group>"; };
+		1A23EC1065192559263D0D7ACDE0F270 /* MMWormholeSessionFileTransiting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MMWormholeSessionFileTransiting.h; path = Source/MMWormholeSessionFileTransiting.h; sourceTree = "<group>"; };
+		1B37E42DB26CFA4AEF82290FFC0F52A8 /* Pods-WormholeExample-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WormholeExample-Info.plist"; sourceTree = "<group>"; };
+		1B62B9ACB69DDF461ACAAAB9CF1708C5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS7.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		2316E48B12D6E3C95B38AEAB0283183E /* Pods-WormholeExample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WormholeExample-acknowledgements.markdown"; sourceTree = "<group>"; };
+		28A175FE6FC081A44F066C6ABEABF962 /* MMWormhole-watchOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "MMWormhole-watchOS-dummy.m"; path = "../MMWormhole-watchOS/MMWormhole-watchOS-dummy.m"; sourceTree = "<group>"; };
+		29CEA8FBFCBFE7945113709AEA39EE5F /* MMWormhole-iOS */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "MMWormhole-iOS"; path = MMWormhole.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2ACC616FD0614A342C114486C44C7A9D /* Pods-WatchApp Watch App-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WatchApp Watch App-umbrella.h"; sourceTree = "<group>"; };
+		2BD9D4E3FA09B9C56B2D1E1D24A184AA /* MMWormhole-watchOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = "MMWormhole-watchOS.modulemap"; path = "../MMWormhole-watchOS/MMWormhole-watchOS.modulemap"; sourceTree = "<group>"; };
+		3A9CBA1F0504FDF09568481944D5888B /* MMWormholeCoordinatedFileTransiting.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MMWormholeCoordinatedFileTransiting.m; path = Source/MMWormholeCoordinatedFileTransiting.m; sourceTree = "<group>"; };
+		443ECFFBE80813DBDF0EEAF7A8208152 /* MMWormhole-iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MMWormhole-iOS-umbrella.h"; sourceTree = "<group>"; };
+		474A92750F1A828997C3DF3E8407959C /* MMWormhole-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "MMWormhole-iOS.modulemap"; sourceTree = "<group>"; };
+		4CEDE6C6EB30FE929AD91015AB4FECB1 /* MMWormhole-iOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MMWormhole-iOS-Info.plist"; sourceTree = "<group>"; };
+		4EF1A62F3F5AFC32D05B1604A257B45F /* MMWormhole.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MMWormhole.h; path = Source/MMWormhole.h; sourceTree = "<group>"; };
+		56D55DE12DE9BCAF08A088B87F24973B /* MMWormholeSessionContextTransiting.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MMWormholeSessionContextTransiting.m; path = Source/MMWormholeSessionContextTransiting.m; sourceTree = "<group>"; };
+		58E43DD16B86DF488BB38A36342E5569 /* Pods-WatchApp Watch App-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WatchApp Watch App-frameworks.sh"; sourceTree = "<group>"; };
+		60357C99420555779B69D6ABAF22421E /* Pods-WormholeExample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WormholeExample-acknowledgements.plist"; sourceTree = "<group>"; };
+		61548098547750EBAF9844E7D0376575 /* Pods-WatchApp Watch App-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WatchApp Watch App-acknowledgements.markdown"; sourceTree = "<group>"; };
+		617BCE705C7D541A8EF90B734936A09B /* Pods-WatchApp Watch App.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WatchApp Watch App.modulemap"; sourceTree = "<group>"; };
+		61AF5EB4F939A07754587CE4B4422CCC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6F09DD33BFB2B8C988C3C8C89B237825 /* MMWormhole-watchOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MMWormhole-watchOS-prefix.pch"; path = "../MMWormhole-watchOS/MMWormhole-watchOS-prefix.pch"; sourceTree = "<group>"; };
+		7047F545B2ECA11A014EFDBDCD0EC365 /* MMWormhole-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "MMWormhole-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		77D8FE151C20D445FB58B1282CECBA81 /* MMWormholeSession.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MMWormholeSession.h; path = Source/MMWormholeSession.h; sourceTree = "<group>"; };
+		7D5E6BFBCDD4E14589170BFCD2BA7215 /* MMWormhole-watchOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "MMWormhole-watchOS.release.xcconfig"; path = "../MMWormhole-watchOS/MMWormhole-watchOS.release.xcconfig"; sourceTree = "<group>"; };
+		8BDC8AC7B43E7745D7B41FF1866B6169 /* Pods-WatchApp Watch App-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WatchApp Watch App-dummy.m"; sourceTree = "<group>"; };
+		8D06884B738C293F5EEBE1C9CF3A0773 /* Pods-WatchApp Watch App */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-WatchApp Watch App"; path = Pods_WatchApp_Watch_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		91435D576F6090C71713E2ECE410D477 /* MMWormholeFileTransiting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MMWormholeFileTransiting.h; path = Source/MMWormholeFileTransiting.h; sourceTree = "<group>"; };
+		9C4BB00672615217F210D23FA1E9FDC9 /* Pods-WatchApp Watch App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WatchApp Watch App.release.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9FDF1A5D27BCEE4173F6DBA6AA997497 /* Pods-WormholeExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WormholeExample.release.xcconfig"; sourceTree = "<group>"; };
+		A7F5687A940CB3671D4AB28D22108321 /* MMWormholeCoordinatedFileTransiting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MMWormholeCoordinatedFileTransiting.h; path = Source/MMWormholeCoordinatedFileTransiting.h; sourceTree = "<group>"; };
+		B0611D32CD8B223044F4A99D60FEE672 /* MMWormholeSessionContextTransiting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MMWormholeSessionContextTransiting.h; path = Source/MMWormholeSessionContextTransiting.h; sourceTree = "<group>"; };
+		B2CDA58BA52DAD437B662DD57C8FA774 /* Pods-WormholeExample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WormholeExample-umbrella.h"; sourceTree = "<group>"; };
+		B69CDED66730D85AC10BEA63B62127DB /* MMWormhole-watchOS */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "MMWormhole-watchOS"; path = MMWormhole.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9309864E881195ED4163B2F359B0C8F /* MMWormholeSession.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MMWormholeSession.m; path = Source/MMWormholeSession.m; sourceTree = "<group>"; };
 		BA68499ED08EB01C8A10F2B72B0AA13B /* Pods-WormholeExample */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-WormholeExample"; path = Pods_WormholeExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C34434C384FC00FFD5B9F94A475549CB /* MMWormhole.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MMWormhole.h; path = Source/MMWormhole.h; sourceTree = "<group>"; };
-		C36193FD7E940B2BD53A911B1DB13139 /* Pods-WormholeExample-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WormholeExample-Info.plist"; sourceTree = "<group>"; };
-		C4D0BB7239F738F8BC7884FB021CEAF2 /* MMWormholeSessionFileTransiting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MMWormholeSessionFileTransiting.h; path = Source/MMWormholeSessionFileTransiting.h; sourceTree = "<group>"; };
-		D9C203AF2F5D868FFFED227C2527287F /* MMWormhole.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MMWormhole.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DCF1490510D383135463B838827E0E93 /* MMWormholeSessionContextTransiting.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MMWormholeSessionContextTransiting.m; path = Source/MMWormholeSessionContextTransiting.m; sourceTree = "<group>"; };
-		E1D2FC72660B51C4BBAF6CFAB38AA89D /* Pods-WormholeExample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WormholeExample-acknowledgements.plist"; sourceTree = "<group>"; };
-		E4A08AE28B5DE287DF63495757866BE4 /* MMWormholeSession.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MMWormholeSession.m; path = Source/MMWormholeSession.m; sourceTree = "<group>"; };
-		E4CA14CCB2819EA64D6E5FEDAA47A226 /* Pods-WormholeExample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WormholeExample-umbrella.h"; sourceTree = "<group>"; };
-		E55D26CD14D4F2B87A4CDA58DCA87FEC /* Pods-WormholeExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WormholeExample.debug.xcconfig"; sourceTree = "<group>"; };
-		F17BBE22A6B40764F345EE870B9FF9CC /* MMWormholeSessionMessageTransiting.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MMWormholeSessionMessageTransiting.m; path = Source/MMWormholeSessionMessageTransiting.m; sourceTree = "<group>"; };
-		FED2B22E63D8B2AA392A13B30888793F /* MMWormhole.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MMWormhole.release.xcconfig; sourceTree = "<group>"; };
-		FF0AED545BD7CF0291F335F6233BE120 /* MMWormhole.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MMWormhole.m; path = Source/MMWormhole.m; sourceTree = "<group>"; };
+		BD1BD8DDC9C86A8839D0A4A88E69E276 /* MMWormholeSessionFileTransiting.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MMWormholeSessionFileTransiting.m; path = Source/MMWormholeSessionFileTransiting.m; sourceTree = "<group>"; };
+		C4B1975972DA464AB4BD35B6C125CC2D /* WatchConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatchConnectivity.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS7.0.sdk/System/Library/Frameworks/WatchConnectivity.framework; sourceTree = DEVELOPER_DIR; };
+		CB9EA7BA225F6546223CE19220864104 /* Pods-WatchApp Watch App-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WatchApp Watch App-Info.plist"; sourceTree = "<group>"; };
+		CEBD301827A196F6436916F9B2AB6BE6 /* Pods-WormholeExample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WormholeExample.modulemap"; sourceTree = "<group>"; };
+		CF021EA5B04D05E023C08C800D39F8EC /* MMWormhole.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MMWormhole.m; path = Source/MMWormhole.m; sourceTree = "<group>"; };
+		D2FD97B5F3A62629D3106A7AB7BBA030 /* MMWormholeFileTransiting.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MMWormholeFileTransiting.m; path = Source/MMWormholeFileTransiting.m; sourceTree = "<group>"; };
+		D5F12F086B577BAA8F8A3F47A8D409FA /* MMWormhole-iOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MMWormhole-iOS-prefix.pch"; sourceTree = "<group>"; };
+		D738CAFAFC85E8E3F2889D8E15D71F62 /* Pods-WormholeExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WormholeExample.debug.xcconfig"; sourceTree = "<group>"; };
+		DE162AC71D27375F74E119F8A3861C4D /* Pods-WatchApp Watch App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WatchApp Watch App.debug.xcconfig"; sourceTree = "<group>"; };
+		DEFB47B82361CD91EADB8B9A82A99FB3 /* MMWormholeTransiting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MMWormholeTransiting.h; path = Source/MMWormholeTransiting.h; sourceTree = "<group>"; };
+		E51AFD12CD3B1EAFF2D0C55E84950A13 /* MMWormhole-watchOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = "MMWormhole-watchOS-Info.plist"; path = "../MMWormhole-watchOS/MMWormhole-watchOS-Info.plist"; sourceTree = "<group>"; };
+		E5EAB6EEA787E93BF14A5BD613A818B3 /* Pods-WormholeExample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WormholeExample-frameworks.sh"; sourceTree = "<group>"; };
+		E685979C020619F3B322818F3DCC5BD3 /* MMWormhole-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "MMWormhole-iOS.release.xcconfig"; sourceTree = "<group>"; };
+		EBBF0AB7E4F1965D2C2A7173AC341F68 /* MMWormhole-watchOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "MMWormhole-watchOS.debug.xcconfig"; path = "../MMWormhole-watchOS/MMWormhole-watchOS.debug.xcconfig"; sourceTree = "<group>"; };
+		EFB2E73C9064F13BAA4E9433C1E3FA63 /* MMWormhole-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MMWormhole-iOS-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		6703FDCC6042E55442F939C92887744E /* Frameworks */ = {
+		4EC05EBC04FB5BD83353FAB488C02F8F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EEC769F2E68ED023B1B1E151E68F9386 /* Foundation.framework in Frameworks */,
-				98115BC6B817E99BB0723648ED089353 /* WatchConnectivity.framework in Frameworks */,
+				0975E6C7A143CCD7B20C189872B0274D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D255CF95A60EB84D4D9B6CFB5546E48B /* Frameworks */ = {
+		B372CD0CC8C91232B1A2AFCCF38B6F35 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B910EA79654BF027B1AA8505ABBF343 /* Foundation.framework in Frameworks */,
+				E8D7FD301E78937C2EF6E250F420F1BA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4FCB66136F9562317C6CD56C2F228E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFBCF91ABFE2BC97371B307552A90453 /* Foundation.framework in Frameworks */,
+				28277DA257ADC84387577109F31FB4AC /* WatchConnectivity.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E504E3241EB1A153E9188CA4C3764B5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18FE2842CF65F37FB425839B54845EDD /* Foundation.framework in Frameworks */,
+				08E2865806E87187B84D7536CCD5A1FD /* WatchConnectivity.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		01F94BFA4137EF5C8740602B3BAB431F /* Targets Support Files */ = {
+		09CC88B38D830FCED101EC52C5A68A68 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				42578DF3B79141D974CD50B01EDA7D1D /* Pods-WormholeExample */,
+				29CEA8FBFCBFE7945113709AEA39EE5F /* MMWormhole-iOS */,
+				B69CDED66730D85AC10BEA63B62127DB /* MMWormhole-watchOS */,
+				8D06884B738C293F5EEBE1C9CF3A0773 /* Pods-WatchApp Watch App */,
+				BA68499ED08EB01C8A10F2B72B0AA13B /* Pods-WormholeExample */,
 			);
-			name = "Targets Support Files";
+			name = Products;
 			sourceTree = "<group>";
 		};
-		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+		4BE1630F1A57489191104F9ED2016CF0 /* MMWormhole */ = {
 			isa = PBXGroup;
 			children = (
-				84406A19494B51CEC8ED451E0415C87F /* iOS */,
+				CD02C86AAC712207FDF769F50A8EDB7D /* Core */,
+				C0E22F5342A3B1345A7F563FA1E45FF5 /* Support Files */,
 			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		42578DF3B79141D974CD50B01EDA7D1D /* Pods-WormholeExample */ = {
-			isa = PBXGroup;
-			children = (
-				A970F19ABBC912CE140C148CDA0DEA00 /* Pods-WormholeExample.modulemap */,
-				055478331CF2D7DC48139E52B6178A07 /* Pods-WormholeExample-acknowledgements.markdown */,
-				E1D2FC72660B51C4BBAF6CFAB38AA89D /* Pods-WormholeExample-acknowledgements.plist */,
-				6C89FA0377B7942B32DA2A632D48B8AB /* Pods-WormholeExample-dummy.m */,
-				75931C1563110F9D61C9FBFF7F10B792 /* Pods-WormholeExample-frameworks.sh */,
-				C36193FD7E940B2BD53A911B1DB13139 /* Pods-WormholeExample-Info.plist */,
-				E4CA14CCB2819EA64D6E5FEDAA47A226 /* Pods-WormholeExample-umbrella.h */,
-				E55D26CD14D4F2B87A4CDA58DCA87FEC /* Pods-WormholeExample.debug.xcconfig */,
-				5760E9E9FFB37E1CBAD53D9B8FD533A9 /* Pods-WormholeExample.release.xcconfig */,
-			);
-			name = "Pods-WormholeExample";
-			path = "Target Support Files/Pods-WormholeExample";
-			sourceTree = "<group>";
-		};
-		456E1B94BF2F96811935C7BCF5F5DB81 /* MMWormhole */ = {
-			isa = PBXGroup;
-			children = (
-				B40F9C4A8239E7DB0A3B1708981B273F /* Core */,
-				B2BADA86CBB81B95743D75964BC94CEB /* Support Files */,
-			);
+			name = MMWormhole;
 			path = MMWormhole;
 			sourceTree = "<group>";
 		};
 		5DCE0E9F993848915B91D607A7632B91 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				456E1B94BF2F96811935C7BCF5F5DB81 /* MMWormhole */,
+				4BE1630F1A57489191104F9ED2016CF0 /* MMWormhole */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		84406A19494B51CEC8ED451E0415C87F /* iOS */ = {
+		721CED5FA30CE83CB901750924D1F5F0 /* watchOS */ = {
 			isa = PBXGroup;
 			children = (
-				04A76E030232411649BC9EB058BA4F1B /* Foundation.framework */,
-				8BE0BF92CCB81908221D4500AEAFC6C6 /* WatchConnectivity.framework */,
+				1B62B9ACB69DDF461ACAAAB9CF1708C5 /* Foundation.framework */,
+				C4B1975972DA464AB4BD35B6C125CC2D /* WatchConnectivity.framework */,
+			);
+			name = watchOS;
+			sourceTree = "<group>";
+		};
+		7FC64C728591FAC3B39B7C4C9AE2D972 /* Pods-WatchApp Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				617BCE705C7D541A8EF90B734936A09B /* Pods-WatchApp Watch App.modulemap */,
+				61548098547750EBAF9844E7D0376575 /* Pods-WatchApp Watch App-acknowledgements.markdown */,
+				17CBE1DEE57C4C8BC0F3EB928EE4FE70 /* Pods-WatchApp Watch App-acknowledgements.plist */,
+				8BDC8AC7B43E7745D7B41FF1866B6169 /* Pods-WatchApp Watch App-dummy.m */,
+				58E43DD16B86DF488BB38A36342E5569 /* Pods-WatchApp Watch App-frameworks.sh */,
+				CB9EA7BA225F6546223CE19220864104 /* Pods-WatchApp Watch App-Info.plist */,
+				2ACC616FD0614A342C114486C44C7A9D /* Pods-WatchApp Watch App-umbrella.h */,
+				DE162AC71D27375F74E119F8A3861C4D /* Pods-WatchApp Watch App.debug.xcconfig */,
+				9C4BB00672615217F210D23FA1E9FDC9 /* Pods-WatchApp Watch App.release.xcconfig */,
+			);
+			name = "Pods-WatchApp Watch App";
+			path = "Target Support Files/Pods-WatchApp Watch App";
+			sourceTree = "<group>";
+		};
+		837480ADB703E696357D11E4407E7E4B /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				61AF5EB4F939A07754587CE4B4422CCC /* Foundation.framework */,
+				082FFB103C8998778F9C95CBDF963D32 /* WatchConnectivity.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		B22D2D8C548422B2AF8B89702481CD93 /* Products */ = {
+		8FC91BD460047A3693D325C35F79B48F /* Pods-WormholeExample */ = {
 			isa = PBXGroup;
 			children = (
-				D9C203AF2F5D868FFFED227C2527287F /* MMWormhole.framework */,
-				BA68499ED08EB01C8A10F2B72B0AA13B /* Pods-WormholeExample */,
+				CEBD301827A196F6436916F9B2AB6BE6 /* Pods-WormholeExample.modulemap */,
+				2316E48B12D6E3C95B38AEAB0283183E /* Pods-WormholeExample-acknowledgements.markdown */,
+				60357C99420555779B69D6ABAF22421E /* Pods-WormholeExample-acknowledgements.plist */,
+				16E41D43B6220E16514CFAD17B0066E0 /* Pods-WormholeExample-dummy.m */,
+				E5EAB6EEA787E93BF14A5BD613A818B3 /* Pods-WormholeExample-frameworks.sh */,
+				1B37E42DB26CFA4AEF82290FFC0F52A8 /* Pods-WormholeExample-Info.plist */,
+				B2CDA58BA52DAD437B662DD57C8FA774 /* Pods-WormholeExample-umbrella.h */,
+				D738CAFAFC85E8E3F2889D8E15D71F62 /* Pods-WormholeExample.debug.xcconfig */,
+				9FDF1A5D27BCEE4173F6DBA6AA997497 /* Pods-WormholeExample.release.xcconfig */,
 			);
-			name = Products;
+			name = "Pods-WormholeExample";
+			path = "Target Support Files/Pods-WormholeExample";
 			sourceTree = "<group>";
 		};
-		B2BADA86CBB81B95743D75964BC94CEB /* Support Files */ = {
+		B18A41E1A8735F35665834382F04447F /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				375938D3071A3F772EBA93509C675E51 /* MMWormhole.modulemap */,
-				1803BDEDAE9346A50669CD758E0DC015 /* MMWormhole-dummy.m */,
-				8DA098EBC29C73C41F3D766DB70F9F43 /* MMWormhole-Info.plist */,
-				8F97AAADE5D85991CDF9B498E286DC57 /* MMWormhole-prefix.pch */,
-				786BD031A8E96377EA741F7AF9863BBB /* MMWormhole-umbrella.h */,
-				79C6F9343249B3272EEACCE9A8F16CB3 /* MMWormhole.debug.xcconfig */,
-				FED2B22E63D8B2AA392A13B30888793F /* MMWormhole.release.xcconfig */,
+				7FC64C728591FAC3B39B7C4C9AE2D972 /* Pods-WatchApp Watch App */,
+				8FC91BD460047A3693D325C35F79B48F /* Pods-WormholeExample */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C0E22F5342A3B1345A7F563FA1E45FF5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				474A92750F1A828997C3DF3E8407959C /* MMWormhole-iOS.modulemap */,
+				EFB2E73C9064F13BAA4E9433C1E3FA63 /* MMWormhole-iOS-dummy.m */,
+				4CEDE6C6EB30FE929AD91015AB4FECB1 /* MMWormhole-iOS-Info.plist */,
+				D5F12F086B577BAA8F8A3F47A8D409FA /* MMWormhole-iOS-prefix.pch */,
+				443ECFFBE80813DBDF0EEAF7A8208152 /* MMWormhole-iOS-umbrella.h */,
+				7047F545B2ECA11A014EFDBDCD0EC365 /* MMWormhole-iOS.debug.xcconfig */,
+				E685979C020619F3B322818F3DCC5BD3 /* MMWormhole-iOS.release.xcconfig */,
+				2BD9D4E3FA09B9C56B2D1E1D24A184AA /* MMWormhole-watchOS.modulemap */,
+				28A175FE6FC081A44F066C6ABEABF962 /* MMWormhole-watchOS-dummy.m */,
+				E51AFD12CD3B1EAFF2D0C55E84950A13 /* MMWormhole-watchOS-Info.plist */,
+				6F09DD33BFB2B8C988C3C8C89B237825 /* MMWormhole-watchOS-prefix.pch */,
+				16F2151DE7064FE82BFE98DD7DDCADB1 /* MMWormhole-watchOS-umbrella.h */,
+				EBBF0AB7E4F1965D2C2A7173AC341F68 /* MMWormhole-watchOS.debug.xcconfig */,
+				7D5E6BFBCDD4E14589170BFCD2BA7215 /* MMWormhole-watchOS.release.xcconfig */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/MMWormhole";
+			path = "../Target Support Files/MMWormhole-iOS";
 			sourceTree = "<group>";
 		};
-		B40F9C4A8239E7DB0A3B1708981B273F /* Core */ = {
+		CD02C86AAC712207FDF769F50A8EDB7D /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				C34434C384FC00FFD5B9F94A475549CB /* MMWormhole.h */,
-				FF0AED545BD7CF0291F335F6233BE120 /* MMWormhole.m */,
-				063723B5929F5403A18778AA287132D0 /* MMWormholeCoordinatedFileTransiting.h */,
-				664F2D961776800CA3F47E6CBB9A5BF5 /* MMWormholeCoordinatedFileTransiting.m */,
-				81E37EA4C61D6EA5F1E5FCCD75D9FC44 /* MMWormholeFileTransiting.h */,
-				A73D452620E1CA1643AC72B82DBD591C /* MMWormholeFileTransiting.m */,
-				01D376F90F01E9780066AC7B2B3F1A3F /* MMWormholeSession.h */,
-				E4A08AE28B5DE287DF63495757866BE4 /* MMWormholeSession.m */,
-				33A9655595638CDF299C104BCFB6B330 /* MMWormholeSessionContextTransiting.h */,
-				DCF1490510D383135463B838827E0E93 /* MMWormholeSessionContextTransiting.m */,
-				C4D0BB7239F738F8BC7884FB021CEAF2 /* MMWormholeSessionFileTransiting.h */,
-				29DC1E04E81968DF588921BEF99BCEBD /* MMWormholeSessionFileTransiting.m */,
-				3D71A3DB8C13F70B9D7F40EDE4237C08 /* MMWormholeSessionMessageTransiting.h */,
-				F17BBE22A6B40764F345EE870B9FF9CC /* MMWormholeSessionMessageTransiting.m */,
-				617C47B554272443FC1EB637BB5C8BA6 /* MMWormholeTransiting.h */,
+				4EF1A62F3F5AFC32D05B1604A257B45F /* MMWormhole.h */,
+				CF021EA5B04D05E023C08C800D39F8EC /* MMWormhole.m */,
+				A7F5687A940CB3671D4AB28D22108321 /* MMWormholeCoordinatedFileTransiting.h */,
+				3A9CBA1F0504FDF09568481944D5888B /* MMWormholeCoordinatedFileTransiting.m */,
+				91435D576F6090C71713E2ECE410D477 /* MMWormholeFileTransiting.h */,
+				D2FD97B5F3A62629D3106A7AB7BBA030 /* MMWormholeFileTransiting.m */,
+				77D8FE151C20D445FB58B1282CECBA81 /* MMWormholeSession.h */,
+				B9309864E881195ED4163B2F359B0C8F /* MMWormholeSession.m */,
+				B0611D32CD8B223044F4A99D60FEE672 /* MMWormholeSessionContextTransiting.h */,
+				56D55DE12DE9BCAF08A088B87F24973B /* MMWormholeSessionContextTransiting.m */,
+				1A23EC1065192559263D0D7ACDE0F270 /* MMWormholeSessionFileTransiting.h */,
+				BD1BD8DDC9C86A8839D0A4A88E69E276 /* MMWormholeSessionFileTransiting.m */,
+				15CD409375C327DB7A5A40B11B588B8E /* MMWormholeSessionMessageTransiting.h */,
+				03E96291410D21D006F2C0C5D582193F /* MMWormholeSessionMessageTransiting.m */,
+				DEFB47B82361CD91EADB8B9A82A99FB3 /* MMWormholeTransiting.h */,
 			);
 			name = Core;
 			sourceTree = "<group>";
@@ -210,78 +305,148 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				DE987B428FA3D231AF1EF6088D8E9999 /* Frameworks */,
 				5DCE0E9F993848915B91D607A7632B91 /* Pods */,
-				B22D2D8C548422B2AF8B89702481CD93 /* Products */,
-				01F94BFA4137EF5C8740602B3BAB431F /* Targets Support Files */,
+				09CC88B38D830FCED101EC52C5A68A68 /* Products */,
+				B18A41E1A8735F35665834382F04447F /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		DE987B428FA3D231AF1EF6088D8E9999 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				837480ADB703E696357D11E4407E7E4B /* iOS */,
+				721CED5FA30CE83CB901750924D1F5F0 /* watchOS */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		3467266502C728982B023FE5C2A43841 /* Headers */ = {
+		0629A0659C464A23425F95B968174797 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B12342B7665D8F0E5C8E4142FBC7CE69 /* MMWormhole.h in Headers */,
-				D05E2424317DDE6F2C47C7A171394CDB /* MMWormhole-umbrella.h in Headers */,
-				802847C45D827FDC0AC71A91C6B4F76C /* MMWormholeCoordinatedFileTransiting.h in Headers */,
-				3A8289DD1509BF5086A0381D7BE5DCD0 /* MMWormholeFileTransiting.h in Headers */,
-				DEE40D70752AFFE77E738C1459DB990C /* MMWormholeSession.h in Headers */,
-				A275AF26282712C0EE744A90F9CA52C7 /* MMWormholeSessionContextTransiting.h in Headers */,
-				10DC2E761FD8240755CB4D44AD848B3C /* MMWormholeSessionFileTransiting.h in Headers */,
-				61A1136637848E05B3CF71EAD63F0487 /* MMWormholeSessionMessageTransiting.h in Headers */,
-				1E82F834D1867575327C749E304E5717 /* MMWormholeTransiting.h in Headers */,
+				5DF827C3C97B58191F6D21B70FCF6B43 /* Pods-WormholeExample-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		547B62F6FBCA672E4D79C659ECC7FCF6 /* Headers */ = {
+		B24793C6B0A696E7889689FC3D51C832 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				07812F0D52ABA35ADB92ACA0BADAF3A0 /* Pods-WormholeExample-umbrella.h in Headers */,
+				56EBC071CC11B44878BFDC94AE061EF5 /* MMWormhole.h in Headers */,
+				BF5D0EC43D78161FDAC53B059638E99E /* MMWormhole-watchOS-umbrella.h in Headers */,
+				7A90849147ACB73337DE8B3E6AEEA742 /* MMWormholeCoordinatedFileTransiting.h in Headers */,
+				0B715386DBD2B5E393D3D156200EBF6E /* MMWormholeFileTransiting.h in Headers */,
+				9D9B75DC6050E165A5CFCC7D550BEB99 /* MMWormholeSession.h in Headers */,
+				338E980EE6A7D26A1277706B9F77C489 /* MMWormholeSessionContextTransiting.h in Headers */,
+				020B066803C88DDD1D9891A50370A707 /* MMWormholeSessionFileTransiting.h in Headers */,
+				52244B139F89C97AF16747AFB7E51FAB /* MMWormholeSessionMessageTransiting.h in Headers */,
+				C72F044D37982848ECD3BB83F053CF24 /* MMWormholeTransiting.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9DF53294D4CF80E3299FEA1BE9A620B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3E738C4C02BD1642A1FCE0CCB0B141F /* MMWormhole.h in Headers */,
+				C8C03211C1630936544FDFD40D0A5F42 /* MMWormhole-iOS-umbrella.h in Headers */,
+				799815F012D70DAD3AD6BA43E8A18203 /* MMWormholeCoordinatedFileTransiting.h in Headers */,
+				B390553E479BE35CBDF97F2F4DB12D57 /* MMWormholeFileTransiting.h in Headers */,
+				7F4F14499D28AC3D4AE757E959D19438 /* MMWormholeSession.h in Headers */,
+				F188EBF8B1BAA2D45E00DADF70308FE9 /* MMWormholeSessionContextTransiting.h in Headers */,
+				EB1B3F6283268BD0A2D2E6B36EFAABFD /* MMWormholeSessionFileTransiting.h in Headers */,
+				DF7B0F10D1CD63F9CD7836099EFBAB52 /* MMWormholeSessionMessageTransiting.h in Headers */,
+				710ED0E415C506360C68695DE1792B83 /* MMWormholeTransiting.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBBB29C30B266C26319D559076F4AEA2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06B5E9E97D801B2E8647875CF67784D4 /* Pods-WatchApp Watch App-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		79B814DB9A64CDC0E82BF99F32518CE2 /* Pods-WormholeExample */ = {
+		65CB53E14B49F4E2F02F0DB9F0567726 /* MMWormhole-iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E7CA783F56CE131F75043E58D43997EB /* Build configuration list for PBXNativeTarget "Pods-WormholeExample" */;
+			buildConfigurationList = BC338AD4CAA7F1E76D388BF4FF9AD476 /* Build configuration list for PBXNativeTarget "MMWormhole-iOS" */;
 			buildPhases = (
-				547B62F6FBCA672E4D79C659ECC7FCF6 /* Headers */,
-				C60DD914B392DCED5BB15444CC82C1E2 /* Sources */,
-				D255CF95A60EB84D4D9B6CFB5546E48B /* Frameworks */,
-				4B4416021D416CE362FF5F201C0209A4 /* Resources */,
+				C9DF53294D4CF80E3299FEA1BE9A620B /* Headers */,
+				6D4C3B03A21CDDBF7308249AC1299E89 /* Sources */,
+				C4FCB66136F9562317C6CD56C2F228E9 /* Frameworks */,
+				7BB6C55A8D278E0C0608BCA3885E431A /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				742E505BFAC5E0944D5B993944D658EE /* PBXTargetDependency */,
+			);
+			name = "MMWormhole-iOS";
+			productName = MMWormhole;
+			productReference = 29CEA8FBFCBFE7945113709AEA39EE5F /* MMWormhole-iOS */;
+			productType = "com.apple.product-type.framework";
+		};
+		67120F425DB9C19ACEFD7D3F85DB1E81 /* Pods-WatchApp Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 255B2CA04B7D63411B805D98EF988FB9 /* Build configuration list for PBXNativeTarget "Pods-WatchApp Watch App" */;
+			buildPhases = (
+				EBBB29C30B266C26319D559076F4AEA2 /* Headers */,
+				08E0A49A684E21C073C4876590AEF5C0 /* Sources */,
+				4EC05EBC04FB5BD83353FAB488C02F8F /* Frameworks */,
+				F38A0DEB988AA9DE8C929954AB3F2F12 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F62C36A81705B3745894910732634C2 /* PBXTargetDependency */,
+			);
+			name = "Pods-WatchApp Watch App";
+			productName = Pods_WatchApp_Watch_App;
+			productReference = 8D06884B738C293F5EEBE1C9CF3A0773 /* Pods-WatchApp Watch App */;
+			productType = "com.apple.product-type.framework";
+		};
+		79B814DB9A64CDC0E82BF99F32518CE2 /* Pods-WormholeExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C703925767E720AE1287F67EEA4394B /* Build configuration list for PBXNativeTarget "Pods-WormholeExample" */;
+			buildPhases = (
+				0629A0659C464A23425F95B968174797 /* Headers */,
+				5F4BAE44D6A096FF5FC2E2B5FE709E35 /* Sources */,
+				B372CD0CC8C91232B1A2AFCCF38B6F35 /* Frameworks */,
+				6F8B0D4315524EEA50DA02C587F82BC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				70345E1441F33F13A389D71330F3759A /* PBXTargetDependency */,
 			);
 			name = "Pods-WormholeExample";
 			productName = Pods_WormholeExample;
 			productReference = BA68499ED08EB01C8A10F2B72B0AA13B /* Pods-WormholeExample */;
 			productType = "com.apple.product-type.framework";
 		};
-		E37C8494356B2F3F48E654AC46CD6824 /* MMWormhole */ = {
+		9441ED84A6E238554D1B0FBCC7640E23 /* MMWormhole-watchOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3DEA17F029724C1CB833C94BE4BE7569 /* Build configuration list for PBXNativeTarget "MMWormhole" */;
+			buildConfigurationList = EDFF024A53FEDA37165A8F3072DB13E4 /* Build configuration list for PBXNativeTarget "MMWormhole-watchOS" */;
 			buildPhases = (
-				3467266502C728982B023FE5C2A43841 /* Headers */,
-				DD7AF75964F686323DCFD0548A939186 /* Sources */,
-				6703FDCC6042E55442F939C92887744E /* Frameworks */,
-				9AC1EDC7BF35834401C96AD11BAA4282 /* Resources */,
+				B24793C6B0A696E7889689FC3D51C832 /* Headers */,
+				702E9A937A649DBB4461C98EAD322908 /* Sources */,
+				E504E3241EB1A153E9188CA4C3764B5D /* Frameworks */,
+				18F1CD6ED6FCFE9B664C1B795B484E07 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = MMWormhole;
+			name = "MMWormhole-watchOS";
 			productName = MMWormhole;
-			productReference = D9C203AF2F5D868FFFED227C2527287F /* MMWormhole.framework */;
+			productReference = B69CDED66730D85AC10BEA63B62127DB /* MMWormhole-watchOS */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -291,7 +456,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1300;
-				LastUpgradeCheck = 1420;
+				LastUpgradeCheck = 1300;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 14.0";
@@ -302,25 +467,41 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = B22D2D8C548422B2AF8B89702481CD93 /* Products */;
+			productRefGroup = 09CC88B38D830FCED101EC52C5A68A68 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E37C8494356B2F3F48E654AC46CD6824 /* MMWormhole */,
+				65CB53E14B49F4E2F02F0DB9F0567726 /* MMWormhole-iOS */,
+				9441ED84A6E238554D1B0FBCC7640E23 /* MMWormhole-watchOS */,
+				67120F425DB9C19ACEFD7D3F85DB1E81 /* Pods-WatchApp Watch App */,
 				79B814DB9A64CDC0E82BF99F32518CE2 /* Pods-WormholeExample */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		4B4416021D416CE362FF5F201C0209A4 /* Resources */ = {
+		18F1CD6ED6FCFE9B664C1B795B484E07 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9AC1EDC7BF35834401C96AD11BAA4282 /* Resources */ = {
+		6F8B0D4315524EEA50DA02C587F82BC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BB6C55A8D278E0C0608BCA3885E431A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F38A0DEB988AA9DE8C929954AB3F2F12 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -330,44 +511,73 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		C60DD914B392DCED5BB15444CC82C1E2 /* Sources */ = {
+		08E0A49A684E21C073C4876590AEF5C0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9BE8A6DFA083145B43FAC37573CC6D3A /* Pods-WormholeExample-dummy.m in Sources */,
+				3863B874F73628C58C63DF36A5DE1945 /* Pods-WatchApp Watch App-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DD7AF75964F686323DCFD0548A939186 /* Sources */ = {
+		5F4BAE44D6A096FF5FC2E2B5FE709E35 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				80C0803B7CCF495A4D2D32BAE6911EB0 /* MMWormhole.m in Sources */,
-				8FA59698D8E0940C6A785C92D2325664 /* MMWormhole-dummy.m in Sources */,
-				CD3B4CEE42DB4A796155E9B1E22FECCB /* MMWormholeCoordinatedFileTransiting.m in Sources */,
-				02DAE095E43D598F39C00701E62CA242 /* MMWormholeFileTransiting.m in Sources */,
-				BCF966A242F1A37245EB58A12267EEC8 /* MMWormholeSession.m in Sources */,
-				0876EF674D2AC9EB649D15765CACF38A /* MMWormholeSessionContextTransiting.m in Sources */,
-				321740FBD1C89969CA16BD264D6D1FDD /* MMWormholeSessionFileTransiting.m in Sources */,
-				145EAECCCD3637C051D305ED3B87967C /* MMWormholeSessionMessageTransiting.m in Sources */,
+				B5F47A1EA42C79DEC300F98114F82248 /* Pods-WormholeExample-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D4C3B03A21CDDBF7308249AC1299E89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCE8E09205D69436FB762984D5C905E4 /* MMWormhole.m in Sources */,
+				02D76A39AA0A609F3EE7411F902C7DCB /* MMWormhole-iOS-dummy.m in Sources */,
+				D6557F2B9282C46D7AEA12E6E87AD638 /* MMWormholeCoordinatedFileTransiting.m in Sources */,
+				B751B7ECD3C47936F93CBAC396084DF8 /* MMWormholeFileTransiting.m in Sources */,
+				C875C5AA79145B7CCC15A28F21076367 /* MMWormholeSession.m in Sources */,
+				48EB28DAEDE76229146620D1D1D4CAE2 /* MMWormholeSessionContextTransiting.m in Sources */,
+				D514F5E3EBD42F97C244960A654C59A3 /* MMWormholeSessionFileTransiting.m in Sources */,
+				2AC6ED518E95373090481B4D816F1E20 /* MMWormholeSessionMessageTransiting.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		702E9A937A649DBB4461C98EAD322908 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A440992CC01907496A5F3AAA0549E55 /* MMWormhole.m in Sources */,
+				CF21BFAB34654D4E2C1F44A6E154DF4F /* MMWormhole-watchOS-dummy.m in Sources */,
+				3A417C01F4CF9262DB211C3AD4DA40AB /* MMWormholeCoordinatedFileTransiting.m in Sources */,
+				19A690D20F8589FA56714378EC93BD7E /* MMWormholeFileTransiting.m in Sources */,
+				726F992ADAD0198CC6049A5B167DCEAA /* MMWormholeSession.m in Sources */,
+				624DE44B45F5CC300D747010BDD33170 /* MMWormholeSessionContextTransiting.m in Sources */,
+				A6F6B4EC2741C73D682521D4560A7697 /* MMWormholeSessionFileTransiting.m in Sources */,
+				A3B2CAF19AB7347A61CE34B6EBD97368 /* MMWormholeSessionMessageTransiting.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		742E505BFAC5E0944D5B993944D658EE /* PBXTargetDependency */ = {
+		70345E1441F33F13A389D71330F3759A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = MMWormhole;
-			target = E37C8494356B2F3F48E654AC46CD6824 /* MMWormhole */;
-			targetProxy = D12551D79FEDC9248981A4EC33B8D56A /* PBXContainerItemProxy */;
+			name = "MMWormhole-iOS";
+			target = 65CB53E14B49F4E2F02F0DB9F0567726 /* MMWormhole-iOS */;
+			targetProxy = A642FA5D0704920218DD8A022E716481 /* PBXContainerItemProxy */;
+		};
+		9F62C36A81705B3745894910732634C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "MMWormhole-watchOS";
+			target = 9441ED84A6E238554D1B0FBCC7640E23 /* MMWormhole-watchOS */;
+			targetProxy = 5284C70F76552CF0944A39584DB47A14 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1360ED1AD1884BE73B3314E27EABAD8A /* Release */ = {
+		1B836B808D01AD135FD0EBDCAF54296C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FED2B22E63D8B2AA392A13B30888793F /* MMWormhole.release.xcconfig */;
+			baseConfigurationReference = 7047F545B2ECA11A014EFDBDCD0EC365 /* MMWormhole-iOS.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -377,16 +587,50 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/MMWormhole/MMWormhole-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MMWormhole/MMWormhole-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/MMWormhole-iOS/MMWormhole-iOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MMWormhole-iOS/MMWormhole-iOS-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MODULEMAP_FILE = "Target Support Files/MMWormhole/MMWormhole.modulemap";
+				MODULEMAP_FILE = "Target Support Files/MMWormhole-iOS/MMWormhole-iOS.modulemap";
+				PRODUCT_MODULE_NAME = MMWormhole;
+				PRODUCT_NAME = MMWormhole;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		335D7FA2CA832868CE8CF85005246BD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E685979C020619F3B322818F3DCC5BD3 /* MMWormhole-iOS.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MMWormhole-iOS/MMWormhole-iOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MMWormhole-iOS/MMWormhole-iOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MMWormhole-iOS/MMWormhole-iOS.modulemap";
 				PRODUCT_MODULE_NAME = MMWormhole;
 				PRODUCT_NAME = MMWormhole;
 				SDKROOT = iphoneos;
@@ -400,9 +644,185 @@
 			};
 			name = Release;
 		};
-		2A34C0ED7FFC3E2E2DC9F159EDD1845B /* Release */ = {
+		3C77B0741C534F2AC425737BC1F10F1F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5760E9E9FFB37E1CBAD53D9B8FD533A9 /* Pods-WormholeExample.release.xcconfig */;
+			baseConfigurationReference = 7D5E6BFBCDD4E14589170BFCD2BA7215 /* MMWormhole-watchOS.release.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MMWormhole-watchOS/MMWormhole-watchOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MMWormhole-watchOS/MMWormhole-watchOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MMWormhole-watchOS/MMWormhole-watchOS.modulemap";
+				PRODUCT_MODULE_NAME = MMWormhole;
+				PRODUCT_NAME = MMWormhole;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		45ABF1D163B32A75ABBD256660EC4582 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBBF0AB7E4F1965D2C2A7173AC341F68 /* MMWormhole-watchOS.debug.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MMWormhole-watchOS/MMWormhole-watchOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MMWormhole-watchOS/MMWormhole-watchOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MMWormhole-watchOS/MMWormhole-watchOS.modulemap";
+				PRODUCT_MODULE_NAME = MMWormhole;
+				PRODUCT_NAME = MMWormhole;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		510A9982323ED196C08CCA55B14B6AD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C4BB00672615217F210D23FA1E9FDC9 /* Pods-WatchApp Watch App.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WatchApp Watch App/Pods-WatchApp Watch App-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WatchApp Watch App/Pods-WatchApp Watch App.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Release;
+		};
+		6310AD97C0AE664B804BB569B8C04208 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		6394F70E474A668D65666ACF5E7FAD23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FDF1A5D27BCEE4173F6DBA6AA997497 /* Pods-WormholeExample.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -416,7 +836,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-WormholeExample/Pods-WormholeExample-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -438,77 +858,12 @@
 			};
 			name = Release;
 		};
-		446BA1B9A1F1F2F95D04E5F82EB1B0F4 /* Debug */ = {
+		7700BFA89818F8A4E7404AEDE5CE97A3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE162AC71D27375F74E119F8A3861C4D /* Pods-WatchApp Watch App.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				DEAD_CODE_STRIPPING = YES;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_DEBUG=1",
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
-				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
-				MTL_FAST_MATH = YES;
-				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Debug;
-		};
-		4A5BBB4EA61DDCCDB9B7CA5E84258087 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 79C6F9343249B3272EEACCE9A8F16CB3 /* MMWormhole.debug.xcconfig */;
-			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -517,29 +872,30 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/MMWormhole/MMWormhole-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MMWormhole/MMWormhole-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-WatchApp Watch App/Pods-WatchApp Watch App-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MODULEMAP_FILE = "Target Support Files/MMWormhole/MMWormhole.modulemap";
-				PRODUCT_MODULE_NAME = MMWormhole;
-				PRODUCT_NAME = MMWormhole;
-				SDKROOT = iphoneos;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WatchApp Watch App/Pods-WatchApp Watch App.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 4;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
 			};
 			name = Debug;
 		};
-		5D47E2EFAC6FAC81A782D9BFD8736F53 /* Release */ = {
+		B21D219A19C4330448D303525636E8A2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -574,7 +930,6 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
-				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -590,7 +945,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -599,12 +954,13 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
 			};
 			name = Release;
 		};
-		EF955E8A4BEA5E5593E54B84A8EB6D23 /* Debug */ = {
+		DA981098BA261F8E5CEF8144B528AC1A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E55D26CD14D4F2B87A4CDA58DCA87FEC /* Pods-WormholeExample.debug.xcconfig */;
+			baseConfigurationReference = D738CAFAFC85E8E3F2889D8E15D71F62 /* Pods-WormholeExample.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -618,7 +974,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-WormholeExample/Pods-WormholeExample-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -642,11 +998,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3DEA17F029724C1CB833C94BE4BE7569 /* Build configuration list for PBXNativeTarget "MMWormhole" */ = {
+		255B2CA04B7D63411B805D98EF988FB9 /* Build configuration list for PBXNativeTarget "Pods-WatchApp Watch App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4A5BBB4EA61DDCCDB9B7CA5E84258087 /* Debug */,
-				1360ED1AD1884BE73B3314E27EABAD8A /* Release */,
+				7700BFA89818F8A4E7404AEDE5CE97A3 /* Debug */,
+				510A9982323ED196C08CCA55B14B6AD1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -654,17 +1010,35 @@
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				446BA1B9A1F1F2F95D04E5F82EB1B0F4 /* Debug */,
-				5D47E2EFAC6FAC81A782D9BFD8736F53 /* Release */,
+				6310AD97C0AE664B804BB569B8C04208 /* Debug */,
+				B21D219A19C4330448D303525636E8A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E7CA783F56CE131F75043E58D43997EB /* Build configuration list for PBXNativeTarget "Pods-WormholeExample" */ = {
+		4C703925767E720AE1287F67EEA4394B /* Build configuration list for PBXNativeTarget "Pods-WormholeExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EF955E8A4BEA5E5593E54B84A8EB6D23 /* Debug */,
-				2A34C0ED7FFC3E2E2DC9F159EDD1845B /* Release */,
+				DA981098BA261F8E5CEF8144B528AC1A /* Debug */,
+				6394F70E474A668D65666ACF5E7FAD23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC338AD4CAA7F1E76D388BF4FF9AD476 /* Build configuration list for PBXNativeTarget "MMWormhole-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B836B808D01AD135FD0EBDCAF54296C /* Debug */,
+				335D7FA2CA832868CE8CF85005246BD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDFF024A53FEDA37165A8F3072DB13E4 /* Build configuration list for PBXNativeTarget "MMWormhole-watchOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45ABF1D163B32A75ABBD256660EC4582 /* Debug */,
+				3C77B0741C534F2AC425737BC1F10F1F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
