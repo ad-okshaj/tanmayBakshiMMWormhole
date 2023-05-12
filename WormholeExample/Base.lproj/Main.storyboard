@@ -16,18 +16,16 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3tU-3G-ce0">
+                            <button opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="751" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3tU-3G-ce0">
                                 <rect key="frame" x="152" y="116" width="87" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Button 1"/>
                                 <connections>
                                     <action selector="button1clicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Vrk-aM-RdL"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C7b-SR-ffQ">
+                            <button opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="751" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C7b-SR-ffQ">
                                 <rect key="frame" x="151" y="198" width="89" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Button 2"/>
                                 <connections>
@@ -35,18 +33,16 @@
                                     <action selector="button2clicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FmU-jD-esR"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rFM-1A-baw">
-                                <rect key="frame" x="151" y="283" width="90" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rFM-1A-baw">
+                                <rect key="frame" x="151" y="283" width="90" height="34.666666666666686"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Button 3"/>
                                 <connections>
                                     <action selector="button3clicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sYR-GU-7MV"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Wormhole message will come here." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bwo-fS-t9T">
-                                <rect key="frame" x="62" y="416" width="269" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Wormhole message will come here." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bwo-fS-t9T">
+                                <rect key="frame" x="62" y="415.66666666666669" width="269" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -54,6 +50,22 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="rFM-1A-baw" firstAttribute="top" secondItem="C7b-SR-ffQ" secondAttribute="bottom" constant="50" id="18T-c3-ZE6"/>
+                            <constraint firstItem="C7b-SR-ffQ" firstAttribute="top" secondItem="3tU-3G-ce0" secondAttribute="bottom" constant="47" id="CWA-CS-6Qp"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="C7b-SR-ffQ" secondAttribute="trailing" constant="153" id="DKA-aq-Qrf"/>
+                            <constraint firstItem="rFM-1A-baw" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="151" id="K3d-dh-cuY"/>
+                            <constraint firstItem="bwo-fS-t9T" firstAttribute="top" secondItem="rFM-1A-baw" secondAttribute="bottom" constant="98" id="P9P-em-tJz"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="rFM-1A-baw" secondAttribute="trailing" constant="152" id="SK9-na-5y3"/>
+                            <constraint firstItem="C7b-SR-ffQ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="151" id="SbW-uU-xAz"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="3tU-3G-ce0" secondAttribute="trailing" constant="154" id="aDo-bM-1tM"/>
+                            <constraint firstItem="rFM-1A-baw" firstAttribute="top" secondItem="C7b-SR-ffQ" secondAttribute="bottom" constant="50" id="alR-1O-s9c"/>
+                            <constraint firstItem="3tU-3G-ce0" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="152" id="bVM-Ox-fcN"/>
+                            <constraint firstItem="3tU-3G-ce0" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="57" id="bkB-zh-Knv"/>
+                            <constraint firstItem="C7b-SR-ffQ" firstAttribute="top" secondItem="3tU-3G-ce0" secondAttribute="bottom" constant="47" id="clg-UK-qNp"/>
+                            <constraint firstItem="bwo-fS-t9T" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="eFL-aX-Q0m"/>
+                            <constraint firstItem="bwo-fS-t9T" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="uTK-D1-SEB"/>
+                        </constraints>
                     </view>
                     <connections>
                         <outlet property="outputLabel" destination="bwo-fS-t9T" id="ju1-kd-8YI"/>
